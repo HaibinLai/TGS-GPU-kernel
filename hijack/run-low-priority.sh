@@ -14,9 +14,9 @@ function run() {
         -v "$(pwd)/low-priority-lib/libcuda.so.1:/libcuda.so.1:ro" \
         -v "$(pwd)/low-priority-lib/libnvidia-ml.so:/libnvidia-ml.so:ro" \
         -v "$(pwd)/low-priority-lib/libnvidia-ml.so.1:/libnvidia-ml.so.1:ro" \
-        -v "$(pwd)/low-priority-lib/ld.so.preload:/etc/ld.so.preload:ro" \
         -v "$(pwd)/gsharing:/etc/gsharing" \
         ${BASE_IMAGE} bash
+        # -v "$(pwd)/low-priority-lib/ld.so.preload:/etc/ld.so.preload:ro" \
 }
 
 run

@@ -1,4 +1,22 @@
 # TGS
+
+Haibin:
+
+1. 要安装CMake 和 make
+2. 安装 nvidia-container-toolkit
+
+3. 要给docker权限
+```
+sudo usermod -aG docker cc
+newgrp docker
+```
+
+4. python不要太新，我用3.10能跑通，最好用conda新建环境
+
+5. 小心脚本会删除所有其他的容器
+
+
+
 ## 1. Introduction
 
 This repository contains one version of the source code for our NSDI'23 paper "Transparent GPU Sharing in Container Clouds for Deep Learning Workloads" [[Paper]](https://www.usenix.org/conference/nsdi23/presentation/wu)
