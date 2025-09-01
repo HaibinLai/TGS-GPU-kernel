@@ -1378,6 +1378,26 @@ typedef enum CUoutput_mode_enum {
 
 /**
  * Memory advise values
+ * 这里是内存的保障
+
+ 1. 内存分配时：
+   ├─ 高优先级：设置PREFERRED_LOCATION (优先在GPU)
+   └─ 低优先级：设置ACCESSED_BY (允许页面错误) + 记录内存使用
+
+2. 内存不足时：
+   ├─ 低优先级任务的内存被驱逐到主机
+   ├─ 高优先级任务获得GPU内存空间
+   └─ 低优先级任务通过页面错误机制访问内存
+
+3. 内存信息欺骗：
+   ├─ 隐藏预留内存空间
+   ├─ 让应用程序以为GPU内存更少
+   └─ 实现透明的内存管理
+
+    透明性：应用程序感知不到内存被驱逐
+    优先级保护：高优先级任务的内存不会被驱逐
+    动态调整：根据内存压力动态调整内存分配
+    故障隔离：低优先级任务的内存问题不会影响高优先级任务
  */
 typedef enum CUmem_advise_enum {
   CU_MEM_ADVISE_SET_READ_MOSTLY =

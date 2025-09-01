@@ -320,6 +320,7 @@ static const long long update_rate_limit(int *p_state, CUdevice device, double r
 }
 
 
+// 5. 内存信息欺骗（虚拟内存映射）
 static void *memory_transfer_routine(CUdevice device) {
   if (list_head == NULL)
     init_list();
@@ -358,6 +359,7 @@ static void *memory_transfer_routine(CUdevice device) {
 }
 
 
+// 6. 激活内存信息欺骗（虚拟内存映射）
 void activate_memory_transfer_routine(CUdevice device) {
   memory_transfer_routine(device);
 }
@@ -375,6 +377,7 @@ inline double shift_window(double rate_window[], const int WINDOW_SIZE, double r
   return max_window_rate;
 }
 
+// 限制自己的GPU使用率
 static void *limit_manager(void *v_device) {
   const CUdevice device = (uintptr_t)v_device;
   const int MAXLINE = 4096;
@@ -390,18 +393,21 @@ static void *limit_manager(void *v_device) {
 
   
   while (1) {
+    // 接受高优先级容器的连接
     if ((connfd = accept(listenfd, (struct sockaddr *)&clientaddr, &clientlen)) < 0)
       LOGGER(FATAL, "accept error\n");
     if ((ret = getnameinfo((const struct sockaddr *)&clientaddr, clientlen, client_hostname, MAXLINE,
                            client_port, MAXLINE, 0)) != 0)
       LOGGER(FATAL, "getnameinfo error: %s\n", gai_strerror(ret));
     
+    // 读取高优先级容器的GPU使用率
     double max_rate = -1;
     if (rio_readn(connfd, (void *)&max_rate, sizeof(double)) != sizeof(double)) {
       continue;
     }
 
     g_rate_limit[device] = 0;
+    // 开始限速流程（接受到高优先级容器连接后）。
     g_rate_control_flag[device] = 1;
 
     double recv_rate = 1.;
@@ -426,15 +432,18 @@ profile:
       }
 
       recv_counter = recv_counter >= 1. ? recv_counter : 1.;
+      // 平滑/窗口与回退逻辑（影响抖动和保守程度） alpha 越小，抖动越小，保守程度越高
       recv_rate = alpha * recv_rate + (1 - alpha) * recv_counter;
       double max_window_rate = shift_window(rate_window, WINDOW_SIZE, recv_rate);
       double max_delta = (max_window_rate - max_rate) / max_rate;
       
+      // 如果抖动在可接受范围内，则更新 max_rate
       if (max_delta >= -0.05 && max_delta <= 0.05) {
         max_rate = max_rate > max_window_rate ? max_rate : max_window_rate;
         continue_flag = (abs(max_rate - max_window_rate) < 1e-5);
       }
       else {
+        // 如果抖动超出可接受范围，则回退 max_rate
         if (max_delta > 0.05) {
           double new_max_rate = max_window_rate * 0.975;
           max_rate = max_rate > new_max_rate ? max_rate : new_max_rate;
@@ -443,6 +452,7 @@ profile:
           double new_max_rate = max_window_rate * 1.025;
           max_rate = max_rate < new_max_rate ? max_rate : new_max_rate;
         }
+        // 如果抖动超出可接受范围，则需要重新 profile
         continue_flag = 1;
       }
     }
@@ -458,13 +468,16 @@ profile:
       }
 
       recv_counter = recv_counter >= 1. ? recv_counter : 1.;
+      // 平滑/窗口与回退逻辑（影响抖动和保守程度） alpha 越小，抖动越小，保守程度越高
       recv_rate = alpha * recv_rate + (1 - alpha) * recv_counter;
       double max_window_rate = shift_window(rate_window, WINDOW_SIZE, recv_rate);
       double max_delta = (max_window_rate - max_rate) / max_rate;
       
+      // 如果抖动在可接受范围内，则更新 max_rate
       if (max_delta >= -0.1 && max_delta <= 0.1)
         max_rate = max_rate > max_window_rate ? max_rate : max_window_rate;
       else if (max_delta > 0.2 || max_delta < -0.2) {
+        // 如果抖动超出可接受范围，则回退 max_rate
         if (max_delta > 0.2) {
           double new_max_rate = max_window_rate * 0.975;
           max_rate = max_rate > new_max_rate ? max_rate : new_max_rate;
@@ -474,11 +487,13 @@ profile:
           max_rate = max_rate < new_max_rate ? max_rate : new_max_rate;
         }
         fprintf(stderr, "change max rate: %lf\n", max_rate);
+        // 如果抖动超出可接受范围，则需要重新 profile
         goto profile;
       }
 
       ++cnt;
       if (cnt == 1) {
+        // 这里用 LIMIT_INITIALIZER 做启动限速值，直接写入 g_rate_limit[device]。
         init_rate_limit(LIMIT_INITIALIZER, &g_rate_limit[device], &state);
         continue;
       }
@@ -490,9 +505,12 @@ profile:
       }
       
       long long rate_limit;
+      // 这两条路径都会把新的 rate_limit 写回 g_rate_limit[device]，
+      // 从而直接控制你任务的节流（你代码其他地方应当按 g_rate_limit[device] 做提交/睡眠/分片节奏控制）。
       if(num_zero <= WINDOW_SIZE / 5 * 2 || cnt < 15){
         if(num_zero == 2 && cnt > 15){
           rate_limit = LIMIT_INITIALIZER;
+          // 这里用 LIMIT_INITIALIZER 做启动限速值，直接写入 g_rate_limit[device]。
           init_rate_limit(rate_limit, &g_rate_limit[device], &state);
         }
         else
@@ -500,6 +518,7 @@ profile:
       }
       else{
         rate_limit = min(UPPER_LIMIT, max(3 * g_current_rate[device], (long long)65536LL * 65536LL));
+         // 这里用 LIMIT_INITIALIZER 做启动限速值，直接写入 g_rate_limit[device]。
         init_rate_limit(rate_limit, &g_rate_limit[device], &state);
       }
 
@@ -566,6 +585,7 @@ static inline int launch_test(const long long kernel_size, const CUdevice device
 }
 
 
+// 3. 根据高优先级容器报告的GPU使用率限制自己的GPU使用率
 static inline void rate_limiter(const long long kernel_size) {
   CUdevice device = 0;
   const CUresult ret = CUDA_ENTRY_CALL(cuda_library_entry, cuCtxGetDevice, &device);
@@ -582,6 +602,7 @@ static inline void rate_limiter(const long long kernel_size) {
 }
 
 
+// 4. 主动向高优先级容器报告自己的GPU使用率
 static void *rate_watcher(void *v_device) {
   const CUdevice device = (uintptr_t)v_device;
   const unsigned long duration = 50;
@@ -662,6 +683,7 @@ CUresult cuInit(unsigned int flag) {
   return ret;
 }
 
+// 低优先级任务使用 ACCESSED_BY
 CUresult cuMemAllocManaged(CUdeviceptr *dptr, size_t bytesize,
                            unsigned int flags) {
   CUresult ret;
@@ -889,6 +911,8 @@ CUresult cuDeviceTotalMem(size_t *bytes, CUdevice dev) {
   return ret;
 }
 
+
+// 内存信息欺骗（虚拟内存映射）
 CUresult cuMemGetInfo_v2(size_t *free, size_t *total) {
   CUresult ret = CUDA_ENTRY_CALL(cuda_library_entry, cuMemGetInfo_v2, free, total);
   if (ret != CUDA_SUCCESS)

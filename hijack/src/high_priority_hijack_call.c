@@ -133,6 +133,7 @@ static inline void rate_estimator(const long long kernel_size) {
 }
 
 
+// 1. 监控自己的GPU使用率
 static void *rate_monitor(void *v_device) {
   const CUdevice device = (uintptr_t)v_device;
   const unsigned long duration = 5000;
@@ -179,6 +180,7 @@ inline double shift_window(double rate_window[], const int WINDOW_SIZE, double r
 }
 
 
+// 2. 主动向低优先级容器报告
 static void *rate_watcher(void *v_device) {
   const CUdevice device = (uintptr_t)v_device;
   const unsigned long duration = 5000;
@@ -370,6 +372,7 @@ CUresult cuInit(unsigned int flag) {
   return ret;
 }
 
+// 高优先级任务使用 PREFERRED_LOCATION
 CUresult cuMemAllocManaged(CUdeviceptr *dptr, size_t bytesize,
                            unsigned int flags) {
   CUresult ret;

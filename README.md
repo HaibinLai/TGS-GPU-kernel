@@ -16,6 +16,11 @@ newgrp docker
 5. 小心脚本会删除所有其他的容器
 
 
+## 框架解读
+
+
+![alt text](image.png)
+
 
 ## 1. Introduction
 
