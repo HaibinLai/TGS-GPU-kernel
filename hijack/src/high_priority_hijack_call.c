@@ -190,23 +190,41 @@ static void *rate_watcher(void *v_device) {
     .tv_nsec = duration % 1000 * MILLISEC,
   };
   const struct timespec listen_time = {
-    .tv_nsec = 100 * MILLISEC,
+    .tv_nsec = 100 * MILLISEC, // 会等待 100 毫秒
   };
-  struct timespec req = listen_time, rem;
+
+  LOGGER(0, "[%d] rate_watcher start @@@@\n", device); // 插桩
+
+  // rem 是一个 struct timespec 类型的变量，
+  // 用于保存 nanosleep 被中断（如收到信号）时剩余的未睡眠时间。
+  // 这样可以在下次循环时继续等待剩余的时间，保证总等待时间准确。
+  struct timespec req = listen_time, rem; 
+
   const int WINDOW_SIZE = 5;
   double rate_window[WINDOW_SIZE];
   double max_rate = 0;
 
-  while (g_active_gpu[device] > 0) {
+  while (g_active_gpu[device] > 0) { // 持续监控 GPU 的活跃状态
+    LOGGER(0, "[%d] rate_watcher start ZZZZ\n", device); // 插桩
+    // timer
+    struct timeval start, end;
 
+
+    // 开始发消息
     int clientfd;
     int loop_cnt = 0;
+
+    /* 
+    只要连接（open_clientfd）不成功（返回值小于0），就会一直循环等待并重试，
+    直到连接成功为止。期间会有短暂的 nanosleep 等待，避免死循环占用 CPU。 
+    */
     while ((clientfd = open_clientfd(device)) < 0) {
+        LOGGER(0, "[%d] rate_watcher start NNNN\n", device); // 插桩
       if (g_active_gpu[device] <= 0) {
         return NULL;
       }
 
-      nanosleep(&listen_time, &rem);
+      nanosleep(&listen_time, &rem); // 休息100ms
       
       if (loop_cnt < 20) {
         ++loop_cnt;
@@ -231,10 +249,16 @@ static void *rate_watcher(void *v_device) {
       continue;
     }
 
+    // 连接成功，开始汇报
     int ret = 0;
-    req = unit_time;
-    while (g_active_gpu[device] > 0) {
+    req = unit_time; // 变成 5000ms
 
+    // 只有在连接 socket 失败时，才会等待 100ms（listen_time）。
+    // 如果连接成功，后续通信（数据汇报）是按照 unit_time（比如 5 秒）为周期进行的。
+
+    while (g_active_gpu[device] > 0) {
+          gettimeofday(&start, NULL);
+      LOGGER(0, "[%d] rate_watcher start @3333\n", device); // 插桩
       ret = nanosleep(&req, &rem);
       if (ret < 0) {
         if (errno == EINTR) {
@@ -258,12 +282,20 @@ static void *rate_watcher(void *v_device) {
         LOGGER(4, "rio_writen error\n");
         break;
       }
+
+      gettimeofday(&end, NULL);
+
+      double elapsed = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1e6;
+      printf("通信耗时: %.6f 秒\n", elapsed);
+      LOGGER(0, "通信耗时: %.6f 秒\n", elapsed); // 时间可以进入到docker容器2 /tmp/cudalog 中查看。
     }
 
     close(clientfd);
 
     max_rate *= 0.8;
   }
+
+  LOGGER(0, "goodbye rate_watcher\n");
   return NULL;
 }
 
