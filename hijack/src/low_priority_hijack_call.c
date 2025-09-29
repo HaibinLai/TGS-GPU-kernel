@@ -456,7 +456,9 @@ profile:
         continue_flag = 1;
       }
     }
+    LOGGER(0, "[%d] recv_rate: %.2f, max_rate: %.2f\n", device, recv_rate, max_rate);
     fprintf(stderr, "profile max rate: %lld\n", max_rate);
+    LOGGER(0, "profile max rate: %lld\n", (long long)max_rate);
 
     while (1) {
       double recv_counter = -1;
@@ -487,6 +489,7 @@ profile:
           max_rate = max_rate < new_max_rate ? max_rate : new_max_rate;
         }
         fprintf(stderr, "change max rate: %lf\n", max_rate);
+        LOGGER(0, "change max rate: %lf\n", max_rate);
         // 如果抖动超出可接受范围，则需要重新 profile
         goto profile;
       }
@@ -521,6 +524,8 @@ profile:
          // 这里用 LIMIT_INITIALIZER 做启动限速值，直接写入 g_rate_limit[device]。
         init_rate_limit(rate_limit, &g_rate_limit[device], &state);
       }
+
+      LOGGER(0, "[%d] recv_rate: %.2f, max_rate: %.2f, rate_limit: %lld\n", device, recv_rate, max_rate, rate_limit);
 
     }
     if ((ret = close(connfd)) < 0)

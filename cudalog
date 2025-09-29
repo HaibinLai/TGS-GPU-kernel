@@ -1,0 +1,672 @@
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:781 Start hijacking
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:796 can't find function cuEGLInit in libcuda.so.570.133.20
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:93 list_head: 0x65b1310
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:459 [0] recv_rate: 351080764.00, max_rate: 349968651.00
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:461 profile max rate: 349968651
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344312033.00, max_rate: 351669404.00, rate_limit: 30001
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 351216850.00, max_rate: 351669404.00, rate_limit: 45002
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 350706848.00, max_rate: 351669404.00, rate_limit: 67504
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 349726597.00, max_rate: 351669404.00, rate_limit: 101257
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 350736553.00, max_rate: 351669404.00, rate_limit: 151886
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 348477913.00, max_rate: 351669404.00, rate_limit: 227830
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 349928527.00, max_rate: 351669404.00, rate_limit: 341746
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346661182.00, max_rate: 351669404.00, rate_limit: 512620
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346950888.00, max_rate: 351669404.00, rate_limit: 768931
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347848397.00, max_rate: 351669404.00, rate_limit: 1153397
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 349004341.00, max_rate: 351669404.00, rate_limit: 1730096
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344813005.00, max_rate: 351669404.00, rate_limit: 2595145
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 328261882.00, max_rate: 351669404.00, rate_limit: 1730096
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345081919.00, max_rate: 351669404.00, rate_limit: 1818013
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344032384.00, max_rate: 351669404.00, rate_limit: 1905930
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339543862.00, max_rate: 351669404.00, rate_limit: 1753456
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343076306.00, max_rate: 351669404.00, rate_limit: 1841373
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341313474.00, max_rate: 351669404.00, rate_limit: 1929290
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343674420.00, max_rate: 351669404.00, rate_limit: 2017207
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341591396.00, max_rate: 351669404.00, rate_limit: 2105124
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337126968.00, max_rate: 351669404.00, rate_limit: 1936715
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341296030.00, max_rate: 351669404.00, rate_limit: 2024632
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339240543.00, max_rate: 351669404.00, rate_limit: 1862662
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343427975.00, max_rate: 351669404.00, rate_limit: 1950579
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342015720.00, max_rate: 351669404.00, rate_limit: 2038496
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337617248.00, max_rate: 351669404.00, rate_limit: 1875417
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343841246.00, max_rate: 351669404.00, rate_limit: 1963334
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339953923.00, max_rate: 351669404.00, rate_limit: 1806268
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342393727.00, max_rate: 351669404.00, rate_limit: 1894185
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341730694.00, max_rate: 351669404.00, rate_limit: 1982102
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337909543.00, max_rate: 351669404.00, rate_limit: 1823534
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343683033.00, max_rate: 351669404.00, rate_limit: 1911451
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341714232.00, max_rate: 351669404.00, rate_limit: 1999368
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342833885.00, max_rate: 351669404.00, rate_limit: 2087285
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339568325.00, max_rate: 351669404.00, rate_limit: 1920303
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342292802.00, max_rate: 351669404.00, rate_limit: 2008220
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339943617.00, max_rate: 351669404.00, rate_limit: 1847563
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342991825.00, max_rate: 351669404.00, rate_limit: 1935480
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341385774.00, max_rate: 351669404.00, rate_limit: 2023397
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341815218.00, max_rate: 351669404.00, rate_limit: 2111314
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336857585.00, max_rate: 351669404.00, rate_limit: 1942409
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342602882.00, max_rate: 351669404.00, rate_limit: 2030326
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339954879.00, max_rate: 351669404.00, rate_limit: 1867900
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344200076.00, max_rate: 351669404.00, rate_limit: 1955817
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341649682.00, max_rate: 351669404.00, rate_limit: 2043734
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338261321.00, max_rate: 351669404.00, rate_limit: 1880236
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342272165.00, max_rate: 351669404.00, rate_limit: 1968153
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342064186.00, max_rate: 351669404.00, rate_limit: 2056070
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339861924.00, max_rate: 351669404.00, rate_limit: 1891585
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342503871.00, max_rate: 351669404.00, rate_limit: 1979502
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338518742.00, max_rate: 351669404.00, rate_limit: 1821142
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344067631.00, max_rate: 351669404.00, rate_limit: 1909059
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338879047.00, max_rate: 351669404.00, rate_limit: 1756335
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340033733.00, max_rate: 351669404.00, rate_limit: 1615829
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338761365.00, max_rate: 351669404.00, rate_limit: 1486563
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341379771.00, max_rate: 351669404.00, rate_limit: 1574480
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341096296.00, max_rate: 351669404.00, rate_limit: 1448522
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347103558.00, max_rate: 351669404.00, rate_limit: 1536439
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347568760.00, max_rate: 351669404.00, rate_limit: 1624356
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340969061.00, max_rate: 351669404.00, rate_limit: 1494408
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342119707.00, max_rate: 351669404.00, rate_limit: 1582325
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342894753.00, max_rate: 351669404.00, rate_limit: 1670242
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341089031.00, max_rate: 351669404.00, rate_limit: 1536623
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347363945.00, max_rate: 351669404.00, rate_limit: 1624540
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341270885.00, max_rate: 351669404.00, rate_limit: 1712457
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339171758.00, max_rate: 351669404.00, rate_limit: 1575461
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342041996.00, max_rate: 351669404.00, rate_limit: 1663378
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338200863.00, max_rate: 351669404.00, rate_limit: 1530308
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343598823.00, max_rate: 351669404.00, rate_limit: 1618225
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346244129.00, max_rate: 351669404.00, rate_limit: 1706142
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345401749.00, max_rate: 351669404.00, rate_limit: 1794059
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342415442.00, max_rate: 351669404.00, rate_limit: 1881976
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341643949.00, max_rate: 351669404.00, rate_limit: 1969893
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337136330.00, max_rate: 351669404.00, rate_limit: 1812302
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343313679.00, max_rate: 351669404.00, rate_limit: 1900219
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342179209.00, max_rate: 351669404.00, rate_limit: 1988136
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340316392.00, max_rate: 351669404.00, rate_limit: 1829086
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344860385.00, max_rate: 351669404.00, rate_limit: 1917003
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343942015.00, max_rate: 351669404.00, rate_limit: 2004920
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341958309.00, max_rate: 351669404.00, rate_limit: 2092837
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337275382.00, max_rate: 351669404.00, rate_limit: 1925411
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339730042.00, max_rate: 351669404.00, rate_limit: 1771379
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343795819.00, max_rate: 351669404.00, rate_limit: 1859296
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344733853.00, max_rate: 351669404.00, rate_limit: 1947213
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344273425.00, max_rate: 351669404.00, rate_limit: 2035130
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340118186.00, max_rate: 351669404.00, rate_limit: 1872320
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343326506.00, max_rate: 351669404.00, rate_limit: 1960237
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342035918.00, max_rate: 351669404.00, rate_limit: 2048154
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340712310.00, max_rate: 351669404.00, rate_limit: 1884302
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341610481.00, max_rate: 351669404.00, rate_limit: 1972219
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342932724.00, max_rate: 351669404.00, rate_limit: 2060136
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343844686.00, max_rate: 351669404.00, rate_limit: 2148053
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338043335.00, max_rate: 351669404.00, rate_limit: 1976209
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339040919.00, max_rate: 351669404.00, rate_limit: 1818113
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341678050.00, max_rate: 351669404.00, rate_limit: 1906030
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339622073.00, max_rate: 351669404.00, rate_limit: 1753548
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342992338.00, max_rate: 351669404.00, rate_limit: 1841465
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343544316.00, max_rate: 351669404.00, rate_limit: 1929382
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341280618.00, max_rate: 351669404.00, rate_limit: 2017299
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336850653.00, max_rate: 351669404.00, rate_limit: 1855916
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343719650.00, max_rate: 351669404.00, rate_limit: 1943833
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339915745.00, max_rate: 351669404.00, rate_limit: 1788327
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341876546.00, max_rate: 351669404.00, rate_limit: 1876244
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337734170.00, max_rate: 351669404.00, rate_limit: 1726145
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338089340.00, max_rate: 351669404.00, rate_limit: 1588054
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343718253.00, max_rate: 351669404.00, rate_limit: 1675971
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342979250.00, max_rate: 351669404.00, rate_limit: 1763888
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342089650.00, max_rate: 351669404.00, rate_limit: 1851805
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344310288.00, max_rate: 351669404.00, rate_limit: 1939722
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341618371.00, max_rate: 351669404.00, rate_limit: 2027639
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342962541.00, max_rate: 351669404.00, rate_limit: 2115556
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340742057.00, max_rate: 351669404.00, rate_limit: 1946312
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341013553.00, max_rate: 351669404.00, rate_limit: 1790608
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342160712.00, max_rate: 351669404.00, rate_limit: 1878525
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 333091801.00, max_rate: 351669404.00, rate_limit: 1728243
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336584425.00, max_rate: 351669404.00, rate_limit: 1589984
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347718802.00, max_rate: 351669404.00, rate_limit: 1677901
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346165446.00, max_rate: 351669404.00, rate_limit: 1765818
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342738513.00, max_rate: 351669404.00, rate_limit: 1853735
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344864229.00, max_rate: 351669404.00, rate_limit: 1941652
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344129285.00, max_rate: 351669404.00, rate_limit: 2029569
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339396068.00, max_rate: 351669404.00, rate_limit: 1867204
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339915346.00, max_rate: 351669404.00, rate_limit: 1717828
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340750431.00, max_rate: 351669404.00, rate_limit: 1580402
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 335878186.00, max_rate: 351669404.00, rate_limit: 1453970
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346018551.00, max_rate: 351669404.00, rate_limit: 1541887
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337891890.00, max_rate: 351669404.00, rate_limit: 1418537
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347685297.00, max_rate: 351669404.00, rate_limit: 1506454
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347122359.00, max_rate: 351669404.00, rate_limit: 1594371
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345972194.00, max_rate: 351669404.00, rate_limit: 1682288
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345510245.00, max_rate: 351669404.00, rate_limit: 1770205
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341920790.00, max_rate: 351669404.00, rate_limit: 1858122
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338612329.00, max_rate: 351669404.00, rate_limit: 1709473
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345533472.00, max_rate: 351669404.00, rate_limit: 1797390
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344947686.00, max_rate: 351669404.00, rate_limit: 1885307
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339415767.00, max_rate: 351669404.00, rate_limit: 1734483
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345723616.00, max_rate: 351669404.00, rate_limit: 1822400
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344156689.00, max_rate: 351669404.00, rate_limit: 1910317
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341844305.00, max_rate: 351669404.00, rate_limit: 1998234
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340820251.00, max_rate: 351669404.00, rate_limit: 1838376
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343861805.00, max_rate: 351669404.00, rate_limit: 1926293
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343206557.00, max_rate: 351669404.00, rate_limit: 2014210
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340043825.00, max_rate: 351669404.00, rate_limit: 1853074
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345383059.00, max_rate: 351669404.00, rate_limit: 1940991
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342087030.00, max_rate: 351669404.00, rate_limit: 2028908
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341362711.00, max_rate: 351669404.00, rate_limit: 2116825
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340389646.00, max_rate: 351669404.00, rate_limit: 1947479
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340812162.00, max_rate: 351669404.00, rate_limit: 1791681
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346171152.00, max_rate: 351669404.00, rate_limit: 1879598
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342615368.00, max_rate: 351669404.00, rate_limit: 1967515
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341518093.00, max_rate: 351669404.00, rate_limit: 2055432
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340367201.00, max_rate: 351669404.00, rate_limit: 1890998
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343692089.00, max_rate: 351669404.00, rate_limit: 1978915
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 335348882.00, max_rate: 351669404.00, rate_limit: 1820602
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340482763.00, max_rate: 351669404.00, rate_limit: 1674954
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342708049.00, max_rate: 351669404.00, rate_limit: 1762871
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341483691.00, max_rate: 351669404.00, rate_limit: 1850788
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342084652.00, max_rate: 351669404.00, rate_limit: 1938705
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339992499.00, max_rate: 351669404.00, rate_limit: 1783609
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341184169.00, max_rate: 351669404.00, rate_limit: 1871526
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341928901.00, max_rate: 351669404.00, rate_limit: 1959443
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339286202.00, max_rate: 351669404.00, rate_limit: 1802688
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344408755.00, max_rate: 351669404.00, rate_limit: 1890605
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343307044.00, max_rate: 351669404.00, rate_limit: 1978522
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 335219782.00, max_rate: 351669404.00, rate_limit: 1820241
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341625227.00, max_rate: 351669404.00, rate_limit: 1908158
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340422399.00, max_rate: 351669404.00, rate_limit: 1755506
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341069194.00, max_rate: 351669404.00, rate_limit: 1615066
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345116586.00, max_rate: 351669404.00, rate_limit: 1702983
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344932946.00, max_rate: 351669404.00, rate_limit: 1790900
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342494888.00, max_rate: 351669404.00, rate_limit: 1878817
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341289468.00, max_rate: 351669404.00, rate_limit: 1966734
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342975112.00, max_rate: 351669404.00, rate_limit: 2054651
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341049513.00, max_rate: 351669404.00, rate_limit: 1890279
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340409477.00, max_rate: 351669404.00, rate_limit: 1739057
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 347917296.00, max_rate: 351669404.00, rate_limit: 1826974
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343170665.00, max_rate: 351669404.00, rate_limit: 1914891
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341109081.00, max_rate: 351669404.00, rate_limit: 1761700
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341725831.00, max_rate: 351669404.00, rate_limit: 1849617
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340156181.00, max_rate: 351669404.00, rate_limit: 1701648
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343045567.00, max_rate: 351669404.00, rate_limit: 1789565
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341461507.00, max_rate: 351669404.00, rate_limit: 1877482
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341310696.00, max_rate: 351669404.00, rate_limit: 1965399
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340575550.00, max_rate: 351669404.00, rate_limit: 1808168
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344873633.00, max_rate: 351669404.00, rate_limit: 1896085
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344315084.00, max_rate: 351669404.00, rate_limit: 1984002
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342108695.00, max_rate: 351669404.00, rate_limit: 2071919
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339966810.00, max_rate: 351669404.00, rate_limit: 1906166
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344902234.00, max_rate: 351669404.00, rate_limit: 1994083
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342779560.00, max_rate: 351669404.00, rate_limit: 2082000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340711420.00, max_rate: 351669404.00, rate_limit: 1915440
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341088977.00, max_rate: 351669404.00, rate_limit: 1762205
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344563728.00, max_rate: 351669404.00, rate_limit: 1850122
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343132381.00, max_rate: 351669404.00, rate_limit: 1938039
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341876895.00, max_rate: 351669404.00, rate_limit: 2025956
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340331316.00, max_rate: 351669404.00, rate_limit: 1863880
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341092415.00, max_rate: 351669404.00, rate_limit: 1714770
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339285887.00, max_rate: 351669404.00, rate_limit: 1577589
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341157055.00, max_rate: 351669404.00, rate_limit: 1665506
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340137166.00, max_rate: 351669404.00, rate_limit: 1532266
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345472741.00, max_rate: 351669404.00, rate_limit: 1620183
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344292896.00, max_rate: 351669404.00, rate_limit: 1708100
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339301538.00, max_rate: 351669404.00, rate_limit: 1571452
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341037984.00, max_rate: 351669404.00, rate_limit: 1445736
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 348723015.00, max_rate: 351669404.00, rate_limit: 1533653
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345017634.00, max_rate: 351669404.00, rate_limit: 1621570
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345692035.00, max_rate: 351669404.00, rate_limit: 1709487
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345729483.00, max_rate: 351669404.00, rate_limit: 1797404
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344614543.00, max_rate: 351669404.00, rate_limit: 1885321
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342352111.00, max_rate: 351669404.00, rate_limit: 1973238
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343826720.00, max_rate: 351669404.00, rate_limit: 2061155
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343085073.00, max_rate: 351669404.00, rate_limit: 2149072
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342899962.00, max_rate: 351669404.00, rate_limit: 2236989
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340315314.00, max_rate: 351669404.00, rate_limit: 2058030
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341107526.00, max_rate: 351669404.00, rate_limit: 1893388
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342105234.00, max_rate: 351669404.00, rate_limit: 1981305
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341111843.00, max_rate: 351669404.00, rate_limit: 1822801
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340446609.00, max_rate: 351669404.00, rate_limit: 1676977
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345048835.00, max_rate: 351669404.00, rate_limit: 1764894
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342997090.00, max_rate: 351669404.00, rate_limit: 1852811
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345907102.00, max_rate: 351669404.00, rate_limit: 1940728
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345295407.00, max_rate: 351669404.00, rate_limit: 2028645
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343555025.00, max_rate: 351669404.00, rate_limit: 2116562
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343247469.00, max_rate: 351669404.00, rate_limit: 2204479
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339346620.00, max_rate: 351669404.00, rate_limit: 2028121
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341739500.00, max_rate: 351669404.00, rate_limit: 2116038
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341558348.00, max_rate: 351669404.00, rate_limit: 2203955
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338856359.00, max_rate: 351669404.00, rate_limit: 2027639
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340980498.00, max_rate: 351669404.00, rate_limit: 1865428
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344223976.00, max_rate: 351669404.00, rate_limit: 1953345
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344708426.00, max_rate: 351669404.00, rate_limit: 2041262
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341690462.00, max_rate: 351669404.00, rate_limit: 2129179
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342462874.00, max_rate: 351669404.00, rate_limit: 2217096
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341525078.00, max_rate: 351669404.00, rate_limit: 2305013
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 337171812.00, max_rate: 351669404.00, rate_limit: 2120612
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 335434628.00, max_rate: 351669404.00, rate_limit: 1950964
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336966102.00, max_rate: 351669404.00, rate_limit: 1794887
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341785917.00, max_rate: 351669404.00, rate_limit: 1882804
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344522046.00, max_rate: 351669404.00, rate_limit: 1970721
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342099498.00, max_rate: 351669404.00, rate_limit: 2058638
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342026947.00, max_rate: 351669404.00, rate_limit: 2146555
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342438050.00, max_rate: 351669404.00, rate_limit: 2234472
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340177530.00, max_rate: 351669404.00, rate_limit: 2055715
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341686601.00, max_rate: 351669404.00, rate_limit: 2143632
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336184855.00, max_rate: 351669404.00, rate_limit: 1972142
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339882990.00, max_rate: 351669404.00, rate_limit: 1814371
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 326053585.00, max_rate: 351669404.00, rate_limit: 1669222
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344380984.00, max_rate: 351669404.00, rate_limit: 1757139
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344786226.00, max_rate: 351669404.00, rate_limit: 1845056
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340693567.00, max_rate: 351669404.00, rate_limit: 1697452
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341793494.00, max_rate: 351669404.00, rate_limit: 1785369
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342969864.00, max_rate: 351669404.00, rate_limit: 1873286
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341081489.00, max_rate: 351669404.00, rate_limit: 1723424
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344757811.00, max_rate: 351669404.00, rate_limit: 1811341
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342656978.00, max_rate: 351669404.00, rate_limit: 1899258
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341235083.00, max_rate: 351669404.00, rate_limit: 1987175
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342326537.00, max_rate: 351669404.00, rate_limit: 2075092
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340775275.00, max_rate: 351669404.00, rate_limit: 1909085
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343175690.00, max_rate: 351669404.00, rate_limit: 1997002
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336786594.00, max_rate: 351669404.00, rate_limit: 1837242
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340026037.00, max_rate: 351669404.00, rate_limit: 1690263
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340369404.00, max_rate: 351669404.00, rate_limit: 1555042
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342053512.00, max_rate: 351669404.00, rate_limit: 1642959
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 346716618.00, max_rate: 351669404.00, rate_limit: 1730876
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345202788.00, max_rate: 351669404.00, rate_limit: 1818793
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344752287.00, max_rate: 351669404.00, rate_limit: 1906710
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341337039.00, max_rate: 351669404.00, rate_limit: 1994627
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342576798.00, max_rate: 351669404.00, rate_limit: 2082544
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342406994.00, max_rate: 351669404.00, rate_limit: 2170461
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338287222.00, max_rate: 351669404.00, rate_limit: 1996825
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339897802.00, max_rate: 351669404.00, rate_limit: 1837079
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345840098.00, max_rate: 351669404.00, rate_limit: 1924996
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342764381.00, max_rate: 351669404.00, rate_limit: 2012913
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340091663.00, max_rate: 351669404.00, rate_limit: 1851880
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345626765.00, max_rate: 351669404.00, rate_limit: 1939797
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342403090.00, max_rate: 351669404.00, rate_limit: 2027714
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342274828.00, max_rate: 351669404.00, rate_limit: 2115631
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339915221.00, max_rate: 351669404.00, rate_limit: 1946381
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344302464.00, max_rate: 351669404.00, rate_limit: 2034298
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343324224.00, max_rate: 351669404.00, rate_limit: 2122215
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340413449.00, max_rate: 351669404.00, rate_limit: 1952438
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344169768.00, max_rate: 351669404.00, rate_limit: 2040355
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340720607.00, max_rate: 351669404.00, rate_limit: 1877127
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343813682.00, max_rate: 351669404.00, rate_limit: 1965044
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341185874.00, max_rate: 351669404.00, rate_limit: 2052961
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340709510.00, max_rate: 351669404.00, rate_limit: 1888725
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339726603.00, max_rate: 351669404.00, rate_limit: 1737627
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344244593.00, max_rate: 351669404.00, rate_limit: 1825544
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340357400.00, max_rate: 351669404.00, rate_limit: 1679501
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342508333.00, max_rate: 351669404.00, rate_limit: 1767418
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342633007.00, max_rate: 351669404.00, rate_limit: 1855335
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341605990.00, max_rate: 351669404.00, rate_limit: 1943252
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344156878.00, max_rate: 351669404.00, rate_limit: 2031169
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343014632.00, max_rate: 351669404.00, rate_limit: 2119086
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343170515.00, max_rate: 351669404.00, rate_limit: 2207003
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341851228.00, max_rate: 351669404.00, rate_limit: 2294920
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 335424216.00, max_rate: 351669404.00, rate_limit: 2111327
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 336403181.00, max_rate: 351669404.00, rate_limit: 1942421
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343146089.00, max_rate: 351669404.00, rate_limit: 2030338
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340470575.00, max_rate: 351669404.00, rate_limit: 1867911
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342724867.00, max_rate: 351669404.00, rate_limit: 1955828
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344337716.00, max_rate: 351669404.00, rate_limit: 2043745
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342214357.00, max_rate: 351669404.00, rate_limit: 2131662
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339562651.00, max_rate: 351669404.00, rate_limit: 1961130
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343792441.00, max_rate: 351669404.00, rate_limit: 2049047
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342673337.00, max_rate: 351669404.00, rate_limit: 2136964
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338422287.00, max_rate: 351669404.00, rate_limit: 1966007
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340870214.00, max_rate: 351669404.00, rate_limit: 1808727
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340991485.00, max_rate: 351669404.00, rate_limit: 1664029
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344690608.00, max_rate: 351669404.00, rate_limit: 1751946
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342106041.00, max_rate: 351669404.00, rate_limit: 1839863
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339603572.00, max_rate: 351669404.00, rate_limit: 1692674
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343144548.00, max_rate: 351669404.00, rate_limit: 1780591
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341883010.00, max_rate: 351669404.00, rate_limit: 1868508
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 338114414.00, max_rate: 351669404.00, rate_limit: 1719028
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 344119510.00, max_rate: 351669404.00, rate_limit: 1806945
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342782313.00, max_rate: 351669404.00, rate_limit: 1894862
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343491605.00, max_rate: 351669404.00, rate_limit: 1982779
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340246574.00, max_rate: 351669404.00, rate_limit: 1824157
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343020872.00, max_rate: 351669404.00, rate_limit: 1912074
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342152460.00, max_rate: 351669404.00, rate_limit: 1999991
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343611906.00, max_rate: 351669404.00, rate_limit: 2087908
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339944994.00, max_rate: 351669404.00, rate_limit: 1920876
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 342184785.00, max_rate: 351669404.00, rate_limit: 2008793
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341045653.00, max_rate: 351669404.00, rate_limit: 1848090
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 345450098.00, max_rate: 351669404.00, rate_limit: 1936007
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341619160.00, max_rate: 351669404.00, rate_limit: 2023924
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 340929852.00, max_rate: 351669404.00, rate_limit: 1862011
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343791604.00, max_rate: 351669404.00, rate_limit: 1949928
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 341908362.00, max_rate: 351669404.00, rate_limit: 2037845
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 339533006.00, max_rate: 351669404.00, rate_limit: 1874818
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:528 [0] recv_rate: 343260586.00, max_rate: 351669404.00, rate_limit: 1962735
+

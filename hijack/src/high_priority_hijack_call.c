@@ -288,6 +288,8 @@ static void *rate_watcher(void *v_device) {
       double elapsed = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1e6;
       printf("通信耗时: %.6f 秒\n", elapsed);
       LOGGER(0, "通信耗时: %.6f 秒\n", elapsed); // 时间可以进入到docker容器2 /tmp/cudalog 中查看。
+      // print speed
+      LOGGER(0, "%.6f\n", rate_counter); // 插桩
     }
 
     close(clientfd);

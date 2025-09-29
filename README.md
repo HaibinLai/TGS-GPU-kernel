@@ -93,3 +93,23 @@ When run experiments in `Figure 5`, please use image `bingyangwu2000/pytorch_wit
 When run experiments in `Figure 9(a)`, please use image `bingyangwu2000/espnet2`. 
 
 When run experiments in `Figure 12`, please use image `goldensea/megatron:v2`.
+
+
+## Profile
+
+profile的commint会将通信运行时间存储在job2的 `tmp/cudalog`，将通信的限制速度存储在job1的 `/tmp/cudalog`。
+
+要想看清使用
+```
+docker ps
+# sudo docker exec -it fb0c7498a90c /bin/bash
+sudo docker exec -it <docker id> /bin/bash
+```
+
+
+### copy data
+
+```txt
+# 假设 docker id 是 fb0c7498a90c
+docker cp fb0c7498a90c:/tmp/cudalog ./cudalog
+```
