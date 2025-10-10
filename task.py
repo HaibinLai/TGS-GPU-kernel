@@ -105,6 +105,7 @@ class Task(object):
         bash_cmd = ""
         if num_gpus == 1:
             bash_cmd = f'python /cluster/workloads/pytorch_imagenet_torchvision.py --iterations {self._iterations} --batch-size {self._batch_size} --model {self._job_name} --train-dir /cluster/datasets/tiny-imagenet-200/train'
+            # bash_cmd = f'python /cluster/workloads/pytorch_resnet_inference.py --data-dir /cluster/datasets/tiny-imagenet-200/train  --model resnet50  --batch-size 128   --device auto  --amp  --topk 5 --out preds_resnet50_top5.csv'
         else:
             bash_cmd = f'horovodrun -np {num_gpus} -H localhost:{num_gpus} python /cluster/workloads/horovod_imagenet_torchvision.py --iterations {self._iterations} --batch-size {self._batch_size} --model {self._job_name} --train-dir /cluster/datasets/tiny-imagenet-200/train'
         bash_cmd += f' --scheduler_ip {self._scheduler_ip}'
