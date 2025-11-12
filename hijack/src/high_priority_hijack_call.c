@@ -12,6 +12,11 @@
 #include <stdint.h>
 #include <sys/syscall.h>
 
+
+#include <x86intrin.h>  // 包含__rdtscp 和 _mm_lfence
+#include <stdint.h>
+#include <stdio.h>
+
 #include "../include/cuda-helper.h"
 #include "../include/hijack.h"
 #include "../include/nvml-helper.h"
@@ -40,6 +45,24 @@ static void rate_estimator(const long long);
 static uint32_t g_block_locker = 0;
 
 static void initialization(CUdevice);
+
+
+/* Time Control */
+uint64_t rdtscp_start() {
+    unsigned int aux;
+    _mm_lfence();                  // 防止前面指令乱序执行到计时内
+    return __rdtscp(&aux);         // 读取时间戳
+}
+
+uint64_t rdtscp_end() {
+    unsigned int aux;
+    uint64_t t = __rdtscp(&aux);   // 读取时间戳
+    _mm_lfence();                  // 防止后面指令乱序执行到计时内
+    return t;
+}
+
+
+
 
 /** dynamic rate control */
 
@@ -209,6 +232,8 @@ static void *rate_watcher(void *v_device) {
     // timer
     struct timeval start, end;
 
+    uint64_t start2, end2;
+
 
     // 开始发消息
     int clientfd;
@@ -258,6 +283,9 @@ static void *rate_watcher(void *v_device) {
 
     while (g_active_gpu[device] > 0) {
           gettimeofday(&start, NULL);
+
+          start2 = rdtscp_start();
+
       LOGGER(0, "[%d] rate_watcher start @3333\n", device); // 插桩
       ret = nanosleep(&req, &rem);
       if (ret < 0) {
@@ -284,6 +312,10 @@ static void *rate_watcher(void *v_device) {
       }
 
       gettimeofday(&end, NULL);
+      end2 = rdtscp_end();
+
+      printf("通信耗时 CPU cycles: %lu\n", end2 - start2);
+      LOGGER(0, "通信耗时 CPU cycles: %lu\n", end2 - start2);
 
       double elapsed = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1e6;
       printf("通信耗时: %.6f 秒\n", elapsed);
