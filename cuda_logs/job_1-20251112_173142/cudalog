@@ -1,0 +1,738 @@
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:781 Start hijacking
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:796 can't find function cuEGLInit in libcuda.so.570.133.20
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:97 list_head: 0x5795140
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:463 [0] recv_rate: 382148131.00, max_rate: 391200145.00
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:466 [0] kernel monitor: current_rate = 192, current_kernel_count = 1
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:471 profile max rate: 391200145
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 360873807.00, max_rate: 391200145.00, rate_limit: 13333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 21088, current_kernel_count = 4
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 391449041.00, max_rate: 391200145.00, rate_limit: 111133
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 14096, current_kernel_count = 25
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 391607143.00, max_rate: 391200145.00, rate_limit: 208933
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 112746, current_kernel_count = 42
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 391438627.00, max_rate: 391528092.00, rate_limit: 306815
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 213707, current_kernel_count = 101
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 389653314.00, max_rate: 391528092.00, rate_limit: 404697
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 314122, current_kernel_count = 247
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 388665912.00, max_rate: 391528092.00, rate_limit: 502579
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 408674, current_kernel_count = 336
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 388895328.00, max_rate: 391528092.00, rate_limit: 600461
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 503115, current_kernel_count = 738
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 386571679.00, max_rate: 391528092.00, rate_limit: 698343
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 601261, current_kernel_count = 833
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 386010390.00, max_rate: 391528092.00, rate_limit: 796225
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 701309, current_kernel_count = 578
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384153783.00, max_rate: 391528092.00, rate_limit: 894107
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 796637, current_kernel_count = 967
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381551061.00, max_rate: 391528092.00, rate_limit: 991989
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 894141, current_kernel_count = 725
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382174119.00, max_rate: 391528092.00, rate_limit: 1089871
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 992143, current_kernel_count = 840
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375551183.00, max_rate: 391528092.00, rate_limit: 1002682
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1096992, current_kernel_count = 1285
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381277212.00, max_rate: 391528092.00, rate_limit: 1100564
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1006873, current_kernel_count = 790
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376316702.00, max_rate: 391528092.00, rate_limit: 1012519
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1100797, current_kernel_count = 958
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381433509.00, max_rate: 391528092.00, rate_limit: 1110401
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1023532, current_kernel_count = 781
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376560691.00, max_rate: 391528092.00, rate_limit: 1021569
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1115774, current_kernel_count = 1246
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381493045.00, max_rate: 391528092.00, rate_limit: 1119451
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1022192, current_kernel_count = 1197
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376220655.00, max_rate: 391528092.00, rate_limit: 1029895
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1123012, current_kernel_count = 1272
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379877317.00, max_rate: 391528092.00, rate_limit: 1127777
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1035205, current_kernel_count = 843
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 372449383.00, max_rate: 391528092.00, rate_limit: 1037555
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1132415, current_kernel_count = 931
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379174669.00, max_rate: 391528092.00, rate_limit: 954551
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1041673, current_kernel_count = 873
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382256923.00, max_rate: 391528092.00, rate_limit: 1052433
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 957031, current_kernel_count = 1178
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376153312.00, max_rate: 391528092.00, rate_limit: 968239
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1053441, current_kernel_count = 896
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381246029.00, max_rate: 391528092.00, rate_limit: 1066121
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 974575, current_kernel_count = 1142
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375914728.00, max_rate: 391528092.00, rate_limit: 980832
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1066363, current_kernel_count = 878
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379644263.00, max_rate: 391528092.00, rate_limit: 902366
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 981257, current_kernel_count = 844
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380725791.00, max_rate: 391528092.00, rate_limit: 1000248
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 904257, current_kernel_count = 730
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379759081.00, max_rate: 391528092.00, rate_limit: 920229
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1001842, current_kernel_count = 1235
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382447701.00, max_rate: 391528092.00, rate_limit: 1018111
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 921702, current_kernel_count = 1083
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377910068.00, max_rate: 391528092.00, rate_limit: 936663
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1018642, current_kernel_count = 1042
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380829240.00, max_rate: 391528092.00, rate_limit: 1034545
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 940249, current_kernel_count = 1094
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375913403.00, max_rate: 391528092.00, rate_limit: 951782
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1034869, current_kernel_count = 804
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380868867.00, max_rate: 391528092.00, rate_limit: 1049664
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 952955, current_kernel_count = 752
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377071062.00, max_rate: 391528092.00, rate_limit: 965691
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1055716, current_kernel_count = 1206
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380431449.00, max_rate: 391528092.00, rate_limit: 1063573
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 971149, current_kernel_count = 771
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377206290.00, max_rate: 391528092.00, rate_limit: 978488
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1070524, current_kernel_count = 1253
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378744982.00, max_rate: 391528092.00, rate_limit: 900209
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 981209, current_kernel_count = 1151
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381768068.00, max_rate: 391528092.00, rate_limit: 998091
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 902732, current_kernel_count = 1113
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378960758.00, max_rate: 391528092.00, rate_limit: 918244
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1000070, current_kernel_count = 1126
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380757753.00, max_rate: 391528092.00, rate_limit: 1016126
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 919294, current_kernel_count = 1061
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377512379.00, max_rate: 391528092.00, rate_limit: 934836
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1018757, current_kernel_count = 832
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381980751.00, max_rate: 391528092.00, rate_limit: 1032718
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 936175, current_kernel_count = 827
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377132321.00, max_rate: 391528092.00, rate_limit: 950101
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1033144, current_kernel_count = 1172
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382106378.00, max_rate: 391528092.00, rate_limit: 1047983
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 954804, current_kernel_count = 1100
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375635253.00, max_rate: 391528092.00, rate_limit: 964145
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1050601, current_kernel_count = 878
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381355775.00, max_rate: 391528092.00, rate_limit: 1062027
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 967257, current_kernel_count = 775
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375958046.00, max_rate: 391528092.00, rate_limit: 977065
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1066743, current_kernel_count = 1178
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380569548.00, max_rate: 391528092.00, rate_limit: 1074947
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 983693, current_kernel_count = 1163
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376649136.00, max_rate: 391528092.00, rate_limit: 988952
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1081940, current_kernel_count = 1240
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379510040.00, max_rate: 391528092.00, rate_limit: 909836
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 996053, current_kernel_count = 1168
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380218426.00, max_rate: 391528092.00, rate_limit: 1007718
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 909869, current_kernel_count = 739
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376977760.00, max_rate: 391528092.00, rate_limit: 927101
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1008524, current_kernel_count = 1187
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382689042.00, max_rate: 391528092.00, rate_limit: 1024983
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 933889, current_kernel_count = 1082
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376980716.00, max_rate: 391528092.00, rate_limit: 942985
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1030628, current_kernel_count = 1202
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384235498.00, max_rate: 391528092.00, rate_limit: 1040867
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 945477, current_kernel_count = 810
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377115614.00, max_rate: 391528092.00, rate_limit: 957598
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1040960, current_kernel_count = 1226
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384622411.00, max_rate: 391528092.00, rate_limit: 1055480
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 965141, current_kernel_count = 853
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375584870.00, max_rate: 391528092.00, rate_limit: 971042
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1058788, current_kernel_count = 1221
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382818428.00, max_rate: 391528092.00, rate_limit: 1068924
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 973912, current_kernel_count = 1204
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375855547.00, max_rate: 391528092.00, rate_limit: 983411
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1069484, current_kernel_count = 838
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381316893.00, max_rate: 391528092.00, rate_limit: 1081293
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 984510, current_kernel_count = 1167
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377637527.00, max_rate: 391528092.00, rate_limit: 994790
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1081331, current_kernel_count = 1012
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379720629.00, max_rate: 391528092.00, rate_limit: 915207
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1003478, current_kernel_count = 764
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382297550.00, max_rate: 391528092.00, rate_limit: 1013089
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 915353, current_kernel_count = 800
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379566281.00, max_rate: 391528092.00, rate_limit: 932042
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1013315, current_kernel_count = 840
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381558303.00, max_rate: 391528092.00, rate_limit: 1029924
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 932791, current_kernel_count = 1079
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377207617.00, max_rate: 391528092.00, rate_limit: 947531
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1030308, current_kernel_count = 1213
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380941686.00, max_rate: 391528092.00, rate_limit: 1045413
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 948425, current_kernel_count = 1102
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376649762.00, max_rate: 391528092.00, rate_limit: 961780
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1046175, current_kernel_count = 1166
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380955049.00, max_rate: 391528092.00, rate_limit: 1059662
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 965649, current_kernel_count = 1094
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377686232.00, max_rate: 391528092.00, rate_limit: 974890
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1061023, current_kernel_count = 1201
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383452594.00, max_rate: 391528092.00, rate_limit: 1072772
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 975281, current_kernel_count = 1125
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376736459.00, max_rate: 391528092.00, rate_limit: 986951
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1080316, current_kernel_count = 1258
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382192730.00, max_rate: 391528092.00, rate_limit: 1084833
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 988385, current_kernel_count = 776
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377743150.00, max_rate: 391528092.00, rate_limit: 998047
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1087905, current_kernel_count = 902
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380141191.00, max_rate: 391528092.00, rate_limit: 1095929
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1001330, current_kernel_count = 1159
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377677191.00, max_rate: 391528092.00, rate_limit: 1008255
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1097467, current_kernel_count = 883
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378613053.00, max_rate: 391528092.00, rate_limit: 927595
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1012441, current_kernel_count = 798
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382043582.00, max_rate: 391528092.00, rate_limit: 1025477
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 933836, current_kernel_count = 1105
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378704489.00, max_rate: 391528092.00, rate_limit: 943439
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1025632, current_kernel_count = 1187
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 385713282.00, max_rate: 391528092.00, rate_limit: 1041321
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 947304, current_kernel_count = 725
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377693687.00, max_rate: 391528092.00, rate_limit: 958016
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1042998, current_kernel_count = 816
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383330439.00, max_rate: 391528092.00, rate_limit: 1055898
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 959274, current_kernel_count = 1143
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378904516.00, max_rate: 391528092.00, rate_limit: 971427
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1057498, current_kernel_count = 1203
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383985038.00, max_rate: 391528092.00, rate_limit: 1069309
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 983338, current_kernel_count = 1131
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379187300.00, max_rate: 391528092.00, rate_limit: 983765
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1073055, current_kernel_count = 1193
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381427535.00, max_rate: 391528092.00, rate_limit: 1081647
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 983911, current_kernel_count = 1137
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377687148.00, max_rate: 391528092.00, rate_limit: 995116
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1082560, current_kernel_count = 1257
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380920280.00, max_rate: 391528092.00, rate_limit: 1092998
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 997726, current_kernel_count = 1200
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377819178.00, max_rate: 391528092.00, rate_limit: 1005559
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1093261, current_kernel_count = 928
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379971156.00, max_rate: 391528092.00, rate_limit: 1103441
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1007043, current_kernel_count = 1144
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378333287.00, max_rate: 391528092.00, rate_limit: 1015166
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1105690, current_kernel_count = 1249
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377566679.00, max_rate: 391528092.00, rate_limit: 933953
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1016144, current_kernel_count = 787
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 385297173.00, max_rate: 391528092.00, rate_limit: 1031835
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 936820, current_kernel_count = 1154
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378602870.00, max_rate: 391528092.00, rate_limit: 949289
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1033750, current_kernel_count = 1197
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384137192.00, max_rate: 391528092.00, rate_limit: 1047171
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 951721, current_kernel_count = 864
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378798314.00, max_rate: 391528092.00, rate_limit: 963398
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1053904, current_kernel_count = 1262
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382688928.00, max_rate: 391528092.00, rate_limit: 1061280
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 963848, current_kernel_count = 1117
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379887250.00, max_rate: 391528092.00, rate_limit: 1159162
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1069139, current_kernel_count = 1190
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377945650.00, max_rate: 391528092.00, rate_limit: 1066430
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1168373, current_kernel_count = 1318
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376388228.00, max_rate: 391528092.00, rate_limit: 981116
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1067302, current_kernel_count = 1204
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382000644.00, max_rate: 391528092.00, rate_limit: 1078998
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 982285, current_kernel_count = 1205
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378139181.00, max_rate: 391528092.00, rate_limit: 992679
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1079555, current_kernel_count = 907
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381776833.00, max_rate: 391528092.00, rate_limit: 1090561
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 993141, current_kernel_count = 794
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377594470.00, max_rate: 391528092.00, rate_limit: 1003317
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1091554, current_kernel_count = 1198
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380029326.00, max_rate: 391528092.00, rate_limit: 1101199
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1016049, current_kernel_count = 787
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 361381363.00, max_rate: 391528092.00, rate_limit: 1013104
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1106443, current_kernel_count = 897
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377627628.00, max_rate: 391528092.00, rate_limit: 932056
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1021104, current_kernel_count = 1238
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384509510.00, max_rate: 391528092.00, rate_limit: 1029938
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 940411, current_kernel_count = 751
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377685586.00, max_rate: 391528092.00, rate_limit: 947543
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1034004, current_kernel_count = 1228
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382946413.00, max_rate: 391528092.00, rate_limit: 1045425
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 949449, current_kernel_count = 1139
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375623011.00, max_rate: 391528092.00, rate_limit: 961791
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1046175, current_kernel_count = 1166
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382836158.00, max_rate: 391528092.00, rate_limit: 1059673
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 963860, current_kernel_count = 1126
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375957414.00, max_rate: 391528092.00, rate_limit: 974900
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1065269, current_kernel_count = 859
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381744957.00, max_rate: 391528092.00, rate_limit: 1072782
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 976379, current_kernel_count = 1121
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377287439.00, max_rate: 391528092.00, rate_limit: 986960
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1074934, current_kernel_count = 1238
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381127104.00, max_rate: 391528092.00, rate_limit: 1084842
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 993959, current_kernel_count = 1191
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380981828.00, max_rate: 391528092.00, rate_limit: 1182724
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1085479, current_kernel_count = 1101
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380231655.00, max_rate: 391528092.00, rate_limit: 1280606
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1187932, current_kernel_count = 1294
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378609183.00, max_rate: 391528092.00, rate_limit: 1178158
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1280835, current_kernel_count = 1371
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378688668.00, max_rate: 391528092.00, rate_limit: 1083906
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1187969, current_kernel_count = 1321
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378687949.00, max_rate: 391528092.00, rate_limit: 997194
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1084212, current_kernel_count = 1231
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380063080.00, max_rate: 391528092.00, rate_limit: 1095076
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1003057, current_kernel_count = 884
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378846480.00, max_rate: 391528092.00, rate_limit: 1007470
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1095976, current_kernel_count = 1238
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379731149.00, max_rate: 391528092.00, rate_limit: 926873
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1007546, current_kernel_count = 1224
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383379711.00, max_rate: 391528092.00, rate_limit: 1024755
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 927041, current_kernel_count = 724
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378005562.00, max_rate: 391528092.00, rate_limit: 942775
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1026433, current_kernel_count = 931
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384337543.00, max_rate: 391528092.00, rate_limit: 1040657
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 944481, current_kernel_count = 1099
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378048696.00, max_rate: 391528092.00, rate_limit: 957405
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1045057, current_kernel_count = 1223
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 386184091.00, max_rate: 391528092.00, rate_limit: 1055287
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 959137, current_kernel_count = 1185
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379842348.00, max_rate: 391528092.00, rate_limit: 1153169
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1056510, current_kernel_count = 1180
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379192578.00, max_rate: 391528092.00, rate_limit: 1060916
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1153868, current_kernel_count = 1247
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377970326.00, max_rate: 391528092.00, rate_limit: 976043
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1070777, current_kernel_count = 900
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381895429.00, max_rate: 391528092.00, rate_limit: 1073925
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 976979, current_kernel_count = 894
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378647064.00, max_rate: 391528092.00, rate_limit: 988011
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1074555, current_kernel_count = 879
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382519868.00, max_rate: 391528092.00, rate_limit: 1085893
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 993084, current_kernel_count = 1132
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378066347.00, max_rate: 391528092.00, rate_limit: 999022
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1090492, current_kernel_count = 1200
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379768098.00, max_rate: 391528092.00, rate_limit: 919101
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 999236, current_kernel_count = 1184
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382999845.00, max_rate: 391528092.00, rate_limit: 1016983
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 920661, current_kernel_count = 846
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378781973.00, max_rate: 391528092.00, rate_limit: 935625
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1022266, current_kernel_count = 1150
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381597534.00, max_rate: 391528092.00, rate_limit: 1033507
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 939266, current_kernel_count = 1130
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378979576.00, max_rate: 391528092.00, rate_limit: 950827
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1042607, current_kernel_count = 1258
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384544024.00, max_rate: 391528092.00, rate_limit: 1048709
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 958973, current_kernel_count = 1099
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380310973.00, max_rate: 391528092.00, rate_limit: 1146591
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1053453, current_kernel_count = 834
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379622212.00, max_rate: 391528092.00, rate_limit: 1054864
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1148663, current_kernel_count = 1007
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379902953.00, max_rate: 391528092.00, rate_limit: 1152746
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1055199, current_kernel_count = 834
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379657291.00, max_rate: 391528092.00, rate_limit: 1060527
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1160058, current_kernel_count = 1286
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379735868.00, max_rate: 391528092.00, rate_limit: 975685
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1061490, current_kernel_count = 1217
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382454599.00, max_rate: 391528092.00, rate_limit: 1073567
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 976105, current_kernel_count = 1006
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375744490.00, max_rate: 391528092.00, rate_limit: 987682
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1073631, current_kernel_count = 842
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381155904.00, max_rate: 391528092.00, rate_limit: 1085564
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 991564, current_kernel_count = 1140
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381554086.00, max_rate: 391528092.00, rate_limit: 1183446
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1097441, current_kernel_count = 1256
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379780236.00, max_rate: 391528092.00, rate_limit: 1088771
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1184771, current_kernel_count = 1030
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378788487.00, max_rate: 391528092.00, rate_limit: 1001670
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1089250, current_kernel_count = 1197
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379718780.00, max_rate: 391528092.00, rate_limit: 921537
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1009397, current_kernel_count = 853
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 382386821.00, max_rate: 391528092.00, rate_limit: 1019419
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 921721, current_kernel_count = 793
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378190138.00, max_rate: 391528092.00, rate_limit: 937866
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1019700, current_kernel_count = 1145
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383833281.00, max_rate: 391528092.00, rate_limit: 1035748
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 939956, current_kernel_count = 741
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376556912.00, max_rate: 391528092.00, rate_limit: 952889
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1035788, current_kernel_count = 1203
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381801386.00, max_rate: 391528092.00, rate_limit: 1050771
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 959051, current_kernel_count = 821
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376344730.00, max_rate: 391528092.00, rate_limit: 966710
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1052160, current_kernel_count = 1199
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381423316.00, max_rate: 391528092.00, rate_limit: 1064592
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 966843, current_kernel_count = 796
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 374781358.00, max_rate: 391528092.00, rate_limit: 979425
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1070524, current_kernel_count = 1253
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381561464.00, max_rate: 391528092.00, rate_limit: 1077307
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 981354, current_kernel_count = 1181
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 373956751.00, max_rate: 391528092.00, rate_limit: 991123
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1078889, current_kernel_count = 946
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379217994.00, max_rate: 391528092.00, rate_limit: 911834
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 994064, current_kernel_count = 1128
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 384288148.00, max_rate: 391528092.00, rate_limit: 1009716
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 912213, current_kernel_count = 1102
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380406931.00, max_rate: 391528092.00, rate_limit: 1107598
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1016769, current_kernel_count = 1114
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 374762745.00, max_rate: 391528092.00, rate_limit: 1018991
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1107738, current_kernel_count = 1250
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 376979433.00, max_rate: 391528092.00, rate_limit: 937472
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1021249, current_kernel_count = 1131
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380342610.00, max_rate: 391528092.00, rate_limit: 1035354
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 937635, current_kernel_count = 1067
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 375388098.00, max_rate: 391528092.00, rate_limit: 952526
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1035456, current_kernel_count = 1252
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 383667532.00, max_rate: 391528092.00, rate_limit: 1050408
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 955100, current_kernel_count = 1162
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 380278766.00, max_rate: 391528092.00, rate_limit: 1148290
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1056863, current_kernel_count = 895
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 378519210.00, max_rate: 391528092.00, rate_limit: 1056427
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1148630, current_kernel_count = 1257
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377808299.00, max_rate: 391528092.00, rate_limit: 971913
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1056642, current_kernel_count = 1126
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381746981.00, max_rate: 391528092.00, rate_limit: 1069795
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 977483, current_kernel_count = 823
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377813308.00, max_rate: 391528092.00, rate_limit: 984212
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1074281, current_kernel_count = 944
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 381393820.00, max_rate: 391528092.00, rate_limit: 1082094
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 986196, current_kernel_count = 1074
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 377843328.00, max_rate: 391528092.00, rate_limit: 995527
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1082243, current_kernel_count = 848
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 379780236.00, max_rate: 391528092.00, rate_limit: 915885
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 1003791, current_kernel_count = 870
+

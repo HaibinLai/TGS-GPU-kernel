@@ -106,6 +106,21 @@ docker ps
 sudo docker exec -it <docker id> /bin/bash
 ```
 
+Or you can use `scripts/download_logs.sh`
+
+```
+bash scripts/download_logs.sh
+```
+
+And you may see:
+
+```
+[INFO] Copying from job_2 (6f7520dd87cf): /tmp/cudalog -> ./cuda_logs/job_2-20251112_173142
+[OK]   Saved to: ./cuda_logs/job_2-20251112_173142
+[INFO] Copying from job_1 (25f387cff8aa): /tmp/cudalog -> ./cuda_logs/job_1-20251112_173142
+[OK]   Saved to: ./cuda_logs/job_1-20251112_173142
+```
+
 
 ### copy data
 
