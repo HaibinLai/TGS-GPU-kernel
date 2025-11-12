@@ -33,6 +33,10 @@ static int g_block_x = 1, g_block_y = 1, g_block_z = 1;
 
 static long long g_current_rate[GPU_MAX_NUM] = {};
 static long long g_rate_counter[GPU_MAX_NUM] = {};
+
+static long long g_kernel_counter[GPU_MAX_NUM] = {};
+static long long g_current_kernel_count[GPU_MAX_NUM] = {};
+
 static int g_active_gpu[GPU_MAX_NUM] = {};
 static CUuuid g_uuid[GPU_MAX_NUM];
 static int g_gpu_id[GPU_MAX_NUM];
@@ -152,7 +156,9 @@ static inline void rate_estimator(const long long kernel_size) {
   if (!g_active_gpu[device])
     initialization(device);
   
+  // add kernel_size to rate counter
   __sync_add_and_fetch_8(&g_rate_counter[device], kernel_size);
+  __sync_add_and_fetch_8(&g_kernel_counter[device], 1);
 }
 
 
@@ -169,6 +175,7 @@ static void *rate_monitor(void *v_device) {
   LOGGER(4, "[%d] rate_monitor start\n", device);
 
   g_rate_counter[device] = 0;
+  g_kernel_counter[device] = 0;
   while (g_active_gpu[device] > 0) {
     int ret = nanosleep(&req, &rem);
     if (ret < 0) {
@@ -182,8 +189,13 @@ static void *rate_monitor(void *v_device) {
       req = unit_time;
     
     g_current_rate[device] = g_rate_counter[device];
+    g_current_kernel_count[device] = g_kernel_counter[device];
+
+    LOGGER(4, "[%d] rate_monitor: current_rate = %lld, current_kernel_count = %lld\n",
+           device, g_current_rate[device], g_current_kernel_count[device]);
 
     g_rate_counter[device] = 0;
+    g_kernel_counter[device] = 0;
   }
   return NULL;
 }
@@ -259,6 +271,7 @@ static void *rate_watcher(void *v_device) {
         loop_cnt = 0;
 
       double rate_counter =  g_current_rate[device];
+      // double kernel_count = g_current_kernel_count[device];
       double max_window_rate = shift_window(rate_window, WINDOW_SIZE, (double)rate_counter);
 
       double max_delta = (max_window_rate - max_rate) / max_rate;

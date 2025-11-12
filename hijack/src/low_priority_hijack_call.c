@@ -38,6 +38,10 @@ static long long g_rate_counter[GPU_MAX_NUM] = {};
 static long long g_rate_limit[GPU_MAX_NUM] = {};
 static long long g_rate_control_flag[GPU_MAX_NUM] = {};
 static long long g_current_rate[GPU_MAX_NUM] = {};
+
+static long long g_kernel_counter[GPU_MAX_NUM] = {};
+static long long g_current_kernel_count[GPU_MAX_NUM] = {};
+
 static int g_active_gpu[GPU_MAX_NUM] = {};
 static CUuuid g_uuid[GPU_MAX_NUM];
 static int g_gpu_id[GPU_MAX_NUM];
@@ -457,6 +461,12 @@ profile:
       }
     }
     LOGGER(0, "[%d] recv_rate: %.2f, max_rate: %.2f\n", device, recv_rate, max_rate);
+
+    // log kernel rate
+    LOGGER(0, "[%d] kernel monitor: current_rate = %lld, current_kernel_count = %lld\n",
+           device, g_current_rate[device], g_current_kernel_count[device]);
+    // LOGGER(0, "[%ld]")
+
     fprintf(stderr, "profile max rate: %lld\n", max_rate);
     LOGGER(0, "profile max rate: %lld\n", (long long)max_rate);
 
@@ -526,6 +536,9 @@ profile:
       }
 
       LOGGER(0, "[%d] recv_rate: %.2f, max_rate: %.2f, rate_limit: %lld\n", device, recv_rate, max_rate, rate_limit);
+
+      LOGGER(0, "[%d] kernel monitor: current_rate = %lld, current_kernel_count = %lld\n",
+           device, g_current_rate[device], g_current_kernel_count[device]);
 
     }
     if ((ret = close(connfd)) < 0)
@@ -604,6 +617,7 @@ static inline void rate_limiter(const long long kernel_size) {
   while (launch_test(kernel_size, device))
     nanosleep(&g_cycle, NULL);
   __sync_add_and_fetch_8(&g_rate_counter[device], kernel_size);
+  __sync_add_and_fetch_8(&g_kernel_counter[device], 1);
 }
 
 
@@ -616,12 +630,17 @@ static void *rate_watcher(void *v_device) {
     .tv_nsec = duration % 1000 * MILLISEC,
   };
   g_rate_counter[device] = 0;
+  g_kernel_counter[device] = 0;
   while (1) {
     nanosleep(&unit_time, NULL);
     
     long long current_rate = g_rate_counter[device];
     g_rate_counter[device] = 0;
     g_current_rate[device] = current_rate;
+
+    long long current_kernel_count = g_kernel_counter[device];
+    g_kernel_counter[device] = 0;
+    g_current_kernel_count[device] = current_kernel_count;
   }
   return NULL;
 }
