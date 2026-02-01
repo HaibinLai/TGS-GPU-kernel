@@ -1,0 +1,30 @@
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:781 Start hijacking
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:796 can't find function cuEGLInit in libcuda.so.570.133.20
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:97 list_head: 0x6599150
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:463 [0] recv_rate: 320838192.00, max_rate: 316811896.50
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:466 [0] kernel monitor: current_rate = 64, current_kernel_count = 1
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:471 profile max rate: 316811896
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 304265178.00, max_rate: 321383065.00, rate_limit: 13333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 26664, current_kernel_count = 12
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 321511980.00, max_rate: 321383065.00, rate_limit: 93678
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 15376, current_kernel_count = 9
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 319137627.00, max_rate: 321383065.00, rate_limit: 174023
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 95197, current_kernel_count = 123
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 318962215.00, max_rate: 321383065.00, rate_limit: 254368
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 177032, current_kernel_count = 215
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:538 [0] recv_rate: 312760023.00, max_rate: 321383065.00, rate_limit: 334713
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:540 [0] kernel monitor: current_rate = 255675, current_kernel_count = 477
+

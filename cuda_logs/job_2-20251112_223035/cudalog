@@ -1,0 +1,194 @@
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:781 Start hijacking
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:796 can't find function cuEGLInit in libcuda.so.570.133.20
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:231 [0] rate_watcher start @@@@
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:243 [0] rate_watcher start ZZZZ
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:175 [0] rate_monitor start
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:140 connect failed: Connection refused
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:259 [0] rate_watcher start NNNN
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 102834373, current_kernel_count = 100811
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974428728
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000094 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 102834373.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 311897063, current_kernel_count = 321171
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974430648
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000084 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 311897063.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 291512615, current_kernel_count = 300105
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974562854
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000097 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 291512615.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 315036108, current_kernel_count = 324590
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974529318
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000082 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 315036108.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 312982647, current_kernel_count = 322141
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974527856
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000082 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 312982647.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 317528980, current_kernel_count = 326955
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974518206
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000078 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 317528980.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 316094813, current_kernel_count = 325465
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974579374
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000106 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 316094813.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 309107996, current_kernel_count = 318326
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974530446
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000085 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 309107996.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 317804726, current_kernel_count = 327214
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974526144
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000083 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 317804726.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 281207093, current_kernel_count = 289816
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974543266
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000091 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 281207093.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 316922739, current_kernel_count = 326073
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974538404
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000089 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 316922739.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 320838192, current_kernel_count = 330362
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974768516
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000195 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 320838192.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 321927938, current_kernel_count = 331523
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974533238
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000087 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 321927938.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 304265178, current_kernel_count = 313378
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974662774
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000147 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 304265178.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 321511980, current_kernel_count = 330916
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974636810
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000136 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 321511980.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 319137627, current_kernel_count = 328617
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974649408
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000142 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 319137627.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 318962215, current_kernel_count = 328451
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974644070
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000141 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 318962215.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:194 [0] rate_monitor: current_rate = 312760023, current_kernel_count = 322027
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:331 通信耗时 CPU cycles: 10974652152
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:335 通信耗时: 5.000145 秒
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:337 312760023.000000
+
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/high_priority_hijack_call.c:302 [0] rate_watcher start @3333
+

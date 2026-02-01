@@ -1,0 +1,4 @@
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:781 Start hijacking
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/loader.c:796 can't find function cuEGLInit in libcuda.so.570.133.20
+/home/haibin/cxsj_25fall/TGS-GPU-kernel/hijack/src/low_priority_hijack_call.c:97 list_head: 0x5890b90
+
